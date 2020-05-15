@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {FlatList, View, Text, Alert } from 'react-native';
 import { ListItem } from 'react-native-elements';
-import { Connect, connect } from 'react-redux';
-import { Loading } from '../LoadingComponent';
+import { connect } from 'react-redux';
+import Loading from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
 import Swipeout from 'react-native-swipeout';
-import { deleteFavorites } from '../redux/ActionCreators';
+import { deleteFavorite } from '../redux/ActionCreators';
 import * as Animatable from 'react-native-animatable';
 
 
